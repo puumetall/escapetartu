@@ -1,0 +1,202 @@
+/*Reset*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+a {
+    text-decoration: none;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* End Reset */
+/* Typo */
+@font-face {
+    font-family: 'AnotherDanger';
+    font-style: normal;
+    src: local('AnotherDanger'), url("../assets/anotherdanger.otf") format("opentype");
+}
+@font-face {
+    font-family: 'AnotherDanger Slanted';
+    src: local('Another Danger Slanted'), url("../assets/anotherdangerslanted.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+
+html {
+    font-size: 100%;
+} /*16px*/
+
+body {
+  background: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 7.594rem;
+}
+
+h2 {font-size: 5.063rem;}
+
+h3 {font-size: 3.375rem;}
+
+h4 {font-size: 2.25rem;}
+
+h5 {font-size: 1.5rem;}
+
+small, .text_small {font-size: 0.667rem;}
+/* End Typo */
+/* Hero Styles */
+.hero {
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    height: 1080px;
+}
+.hero_logo {
+    width: 6em;
+    height: auto;
+    padding: 1em;
+    position: absolute;
+    left: 0;
+}
+header {
+    display:flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+nav a{
+    margin-left: 3em;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+nav ul {
+    display: flex;
+  }
+  
+  .img{
+    position: absolute;
+    left: 0; 
+  }
+  
+  nav{
+    align-self:center;
+  }
+.hero_slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 85%;
+    margin-top: -4em;
+}
+.hero_slogan h1{
+    font-family: "AnotherDanger Slanted";
+    
+}
+.esc {
+    color: #F1E6E6;
+    transform: rotate(-25deg);
+}
+.tar {
+    color: #F63C3C;
+    margin-top: -20px;
+    transform: rotate(-25deg);
+}
+.scroll {
+    margin:auto;
+    
+    width: 1.5em;
+}
+/* End Hero */
+/* Explore */
+.Explore {
+    background-color: black;
+}
+.Explore_rooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.pank, .vang {
+    margin-top: 10em;
+}
+.vang {
+    left: 5em;
+}
+/* End Explore */

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.02 73.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_material-mouse" data-name="Icon material-mouse" class="cls-2" d="M9.46,.92V9.89h6.57c0-4.61-2.86-8.41-6.57-8.97ZM1.01,16.68c0,5,3.36,9.05,7.51,9.05s7.51-4.05,7.51-9.05v-4.52H1.01v4.52ZM7.58,.92C3.87,1.48,1.01,5.28,1.01,9.9H7.58V.92Z"/>
+  <g id="Group_28" data-name="Group 28">
+    <path id="Icon_awesome-long-arrow-alt-down" data-name="Icon awesome-long-arrow-alt-down" class="cls-1" d="M9.1,70.99v-4.41c0-.1-.08-.17-.17-.17h-.82c-.1,0-.17,.08-.17,.17v4.41h-.67c-.19,0-.35,.16-.35,.35,0,.09,.04,.18,.1,.25l1.26,1.26c.14,.14,.36,.14,.5,0,0,0,0,0,0,0l1.25-1.26c.14-.14,.14-.36,0-.5-.07-.07-.16-.1-.25-.1h-.67Z"/>
+    <rect id="Rectangle_32" data-name="Rectangle 32" class="cls-1" x="8.13" y="45.93" width="1" height="25"/>
+  </g>
+</svg>
